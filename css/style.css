@@ -1,16 +1,16 @@
-@import url(/css/global.css);
+@import "./global.css";
 
-@import url(/css/navbar.css);
+@import "./navbar.css";
 
-@import url(/css/header.css);
+@import "./header.css";
 
-@import url(/css/conhecimentos.css);
+@import "./conhecimentos.css";
 
-@import url(/css/portifolio.css);
+@import "./portifolio.css";
 
-@import url(/css/contato.css);
+@import "./contato.css";
 
-@import url(/css/footer.css);
+@import "./footer.css";
 
 @media (max-width: 1100px) {
   .header-container {
