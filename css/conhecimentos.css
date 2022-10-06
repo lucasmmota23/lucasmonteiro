@@ -1,0 +1,53 @@
+.conhecimentos {
+  /* background-color: #000; */
+}
+
+.conhecimentos-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tittle {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.tittle::after {
+  content: "";
+  width: 350px;
+  height: 2px;
+  border-radius: 2px;
+  background: #e5007b;
+  display: block;
+  margin: -5px auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.conhecimentos-card {
+  padding: 20px 40px;
+  background-color: #111;
+  border-radius: 5px;
+}
+
+.conhecimentos-card h2 {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #e0e0e0;
+}
+
+.conhecimentos-card img {
+  width: 70px;
+}

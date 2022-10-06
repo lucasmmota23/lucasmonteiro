@@ -1,0 +1,144 @@
+@import url(/css/global.css);
+
+@import url(/css/navbar.css);
+
+@import url(/css/header.css);
+
+@import url(/css/conhecimentos.css);
+
+@import url(/css/portifolio.css);
+
+@import url(/css/contato.css);
+
+@import url(/css/footer.css);
+
+@media (max-width: 1100px) {
+  .header-container {
+    margin: 0 auto;
+
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header-texto h1 {
+    font-size: 3.5rem;
+  }
+
+  .header-img {
+    width: 240px;
+  }
+
+  .trabalhos-img {
+    width: 350px;
+  }
+
+  .trabalho-texto1 h3,
+  .trabalho-texto2 h3 {
+    font-size: 1.4rem;
+  }
+
+  .trabalho-texto1 p,
+  .trabalho-texto2 p {
+    font-size: 1rem;
+  }
+}
+
+/* MAX-WIDTH 800PX */
+
+@media (max-width: 800px) {
+  .navbar-container ul {
+    display: none;
+  }
+
+  /* header */
+  .header {
+    height: 100vh;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .header-img {
+    width: 300px;
+  }
+
+  .header-texto {
+    order: 2;
+  }
+
+  .header-texto h1 {
+    font-size: 2.5rem;
+  }
+
+  .botao-header {
+    font-size: 1rem;
+  }
+
+  /* CONHECIMENTOS*/
+  .tittle {
+    font-size: 2rem;
+  }
+
+  .conhecimentos-container .tittle::after {
+    width: 275px;
+  }
+
+  /* portifólio */
+
+  .portifolio-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portifolio-container .tittle::after {
+    width: 165px;
+  }
+
+  .trabalhos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trabalhos-img {
+    width: 300px;
+  }
+
+  .trabalho-texto1,
+  .trabalho-texto2 {
+    max-width: 30ch;
+  }
+  .trabalho-texto1 h3,
+  .trabalho-texto2 h3 {
+    font-size: 1.7rem;
+  }
+
+  .trabalho-texto1 p,
+  .trabalho-texto2 p {
+    font-size: 1rem;
+  }
+
+  .trabalho-texto2 {
+    order: 1;
+  }
+
+  .contato-icons {
+    gap: 5px;
+  }
+
+  .contato-container .tittle::after {
+    width: 145px;
+  }
+
+  .contato-icons img {
+    height: 40px;
+  }
+}

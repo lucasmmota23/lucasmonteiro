@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba;
+  background: linear-gradient(113.27deg, #e5007b -47.72%, #110d0f 26.61%);
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}

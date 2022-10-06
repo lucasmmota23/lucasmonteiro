@@ -1,0 +1,29 @@
+.contato-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contato-container .tittle::after {
+  width: 180px;
+}
+
+.contato-icons {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato-icons img {
+  height: 50px;
+}
+
+.contato-icons a {
+  padding: 10px;
+}
+
+.contato-icons img:hover {
+  height: 49px;
+}

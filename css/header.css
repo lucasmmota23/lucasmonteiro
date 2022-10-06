@@ -1,0 +1,43 @@
+.header {
+  /* background-color: #111111; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 200px;
+}
+
+.header-texto h1 {
+  font-size: 4rem;
+  line-height: 0.9;
+  margin-bottom: 40px;
+}
+
+.header-texto h1 span {
+  color: #e5007b;
+}
+
+.botao-header {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #e5007b 0%, #b02771 100%);
+  border-radius: 5px;
+  padding: 10px 60px;
+}
+
+.header-img {
+  width: 280px;
+  display: block;
+}
+
+.botao-header:hover {
+  background: linear-gradient(180deg, #bb0667 0%, #6b1744 100%);
+}
